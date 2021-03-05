@@ -1,0 +1,38 @@
+
+*{
+    background-color:black;
+    color:white;
+    font-family:courier,monospace;
+}
+html{
+    position: relative;
+    border: 8px solid white;
+    height: 100%;
+}
+pre{
+    font-weight: bold;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: violet
+}
+
+a[href^="https://"]::after{
+    content: ' (external)';
+}
+#contentLocation{
+    margin-top: 10vh;
+}
+.container{
+    max-width: 100%;
+}
+.page-title{
+    font-size: 10px;
+}
+
+.content-title{
+    font-size: 4px;
+}
