@@ -1,13 +1,57 @@
+:root{
+    --PS1: "tob@portfolio $ ";
+    --PS1-root: "root@portfolio # ";
+    --PS2: "> ";
+}
+/*************************************************/
+div.terminal{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 500px;
+    font-family: monospace;
+    padding: 10px;
+    text-align: left;
+    margin: 15px;
+}
+div.terminal div.window-controls{
+    width: 100%;
+    text-align: right;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+p.command.as-user:before {
+    content: var(--PS1);
+    color: aqua;
+    font-weight: bold;
+}
+p.command.as-root:before {
+    content: var(--PS1-root);
+    color: red;
+    font-weight: bold;
+}
+p.command-response{
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+control.maximize,control.close,control.minimize{
+    color: #fff;
+}
 
+
+
+
+/*************************************************/
 *{
     background-color:black;
     color:white;
     font-family:courier,monospace;
-}
-html{
-    position: relative;
-    border: 8px solid white;
-    height: 100%;
 }
 pre{
     font-weight: bold;
