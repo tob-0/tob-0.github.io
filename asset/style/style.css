@@ -19,7 +19,9 @@ div.terminal{
 .size-l{
     width: 900px;
 }
-div.terminal div.window-controls{
+div.terminal div.window-titlebar{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     text-align: right;
     user-select: none;
@@ -38,7 +40,7 @@ p.command.as-root:before {
     color: red;
     font-weight: bold;
 }
-p.command-response{
+.command-response, .cat-command-response{
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
