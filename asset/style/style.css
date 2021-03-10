@@ -22,7 +22,7 @@ div.terminal{
 div.terminal div.window-titlebar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100%; 
     text-align: right;
     user-select: none;
     -moz-user-select: none;
@@ -40,7 +40,7 @@ p.command.as-root:before {
     color: red;
     font-weight: bold;
 }
-.command-response, .cat-command-response{
+.command-response{
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -60,7 +60,7 @@ control.maximize,control.close,control.minimize{
     color:white;
     font-family:courier,monospace;
 }
-pre{
+pre.title{
     font-weight: bold;
 }
 a {
@@ -81,9 +81,26 @@ a[href^="https://"]::after{
     max-width: 100%;
 }
 .page-title{
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .content-title{
-    font-size: 4px;
+    font-size: 16px;
+}
+.logo {
+    font-weight: bold;
+    font-size:1px;
+}
+.logo-list{
+    display: inline-flex;
+}
+.flex-container{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+details{
+    border: 0;
+}
+summary{
+    border: 0;
 }
