@@ -71,7 +71,7 @@ a:hover{
 }
 
 a[href^="https://"]::after{
-    content: ' (external)';
+    content: ' [↗]';
 }
 #contentLocation{
     margin-top: 10vh;
@@ -115,7 +115,9 @@ summary{
     font-size: 16px;
     font-weight: bold;
     padding: 10px;
+    cursor: pointer;
 }
+
 .project-card{
     border: 1px solid white;
     display: flex;
@@ -131,4 +133,8 @@ summary{
 }
 .card-text{
     text-align: left;
+}
+.card-image img{
+    width:300px;
+    height:300px;
 }
