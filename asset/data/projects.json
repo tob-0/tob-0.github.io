@@ -43,6 +43,15 @@
         "link":"https://github.com/tob-0/vibe.adatechschool.fr-mbti-scraper",
         "image_link":"https://i.imgur.com/d2uuWwB.png",
         "image_alt":"Code source"
+    },
+    {
+        "title":"Embroidery Design Table",
+        "label":"projects-perso",
+        "shortdesc":"Site Web pour ma table de design de broderie",
+        "languages":["Python","Django"],
+        "link":"https://github.com/tob-0/embroidery-design-table",
+        "image_link":"https://via.placeholder.com/300",
+        "image_alt":"Code source"
     }
 ]
 
