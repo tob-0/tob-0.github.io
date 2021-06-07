@@ -72,9 +72,12 @@ a:hover{
 
 a[href^="https://"]::after{
     content: ' [↗]';
+<<<<<<< HEAD
 }
 .special-link{
     border-bottom: 1px dotted white;
+=======
+>>>>>>> a8706370a323b244d7a7cbaa531aa03478239936
 }
 #contentLocation{
     margin-top: 10vh;
@@ -118,7 +121,9 @@ summary{
     font-size: 16px;
     font-weight: bold;
     padding: 10px;
+    cursor: pointer;
 }
+
 .project-card{
     border: 1px solid white;
     display: flex;
@@ -135,7 +140,13 @@ summary{
 .card-text{
     text-align: left;
 }
+<<<<<<< HEAD
 .light-mode{
     background-color: white;
     color: black;
+=======
+.card-image img{
+    width:300px;
+    height:300px;
+>>>>>>> a8706370a323b244d7a7cbaa531aa03478239936
 }

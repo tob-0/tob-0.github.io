@@ -1,0 +1,57 @@
+[
+    {
+        "title":"?",
+        "label":"projects-ada-tech-school",
+        "shortdesc":"Un projet de jeu en PICO-8 (pas ouf, on va pas se mentir)",
+        "languages":["Lua","PICO-8"],
+        "link":"https://github.com/tob-0/PC-pico8-geb-thom-noh",
+        "image_link":"https://via.placeholder.com/300",
+        "image_alt":"Capture du jeu"
+    },
+    {
+        "title":"Instagram Caption Bot",
+        "label":"projects-perso",
+        "shortdesc":"Un bot qui genere des images et qui les postent sur Instagram.",
+        "languages":["Python"],
+        "link":"https://github.com/tob-0/instagram-caption-bot",
+        "image_link":"https://i.imgur.com/tajC360.jpg",
+        "image_alt":"Logo du compte instagram"
+    },
+    {
+        "title":"Ada's Burger",
+        "label":"projects-ada-tech-school",
+        "shortdesc":"Une interface de commande de burger delicieuse",
+        "languages":["p5.js"],
+        "link":"projects/adas-burger",
+        "image_link":"https://raw.githubusercontent.com/tob-0/adas-burger/main/assets/imgs/adasburger_bg.jpg",
+        "image_alt":"Capture de la page"
+    },
+    {
+        "title":"VibeCLI",
+        "label":"projects-perso",
+        "shortdesc":"Une CLI pour la plateforme Vibe",
+        "languages":["Python"],
+        "link":"https://github.com/tob-0/vibe-cli",
+        "image_link":"https://i.imgur.com/X4yTVYs.png",
+        "image_alt":"Logo de VibeCLI"
+    },
+    {
+        "title":"Vibe MBTI Scraper",
+        "label":"projects-perso",
+        "shortdesc":"Un scraper des profils MBTI sur la plateforme Vibe (Fait avant le CLI, donc c'est pas ouf)",
+        "languages":["Python"],
+        "link":"https://github.com/tob-0/vibe.adatechschool.fr-mbti-scraper",
+        "image_link":"https://i.imgur.com/d2uuWwB.png",
+        "image_alt":"Code source"
+    },
+    {
+        "title":"Embroidery Design Table",
+        "label":"projects-perso",
+        "shortdesc":"Site Web pour ma table de design de broderie",
+        "languages":["Python","Django"],
+        "link":"https://github.com/tob-0/embroidery-design-table",
+        "image_link":"https://via.placeholder.com/300",
+        "image_alt":"Code source"
+    }
+]
+
