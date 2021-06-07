@@ -71,7 +71,10 @@ a:hover{
 }
 
 a[href^="https://"]::after{
-    content: ' (external)';
+    content: ' [↗]';
+}
+.special-link{
+    border-bottom: 1px dotted white;
 }
 #contentLocation{
     margin-top: 10vh;
@@ -131,4 +134,8 @@ summary{
 }
 .card-text{
     text-align: left;
+}
+.light-mode{
+    background-color: white;
+    color: black;
 }

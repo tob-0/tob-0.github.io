@@ -10,5 +10,6 @@ const loadContent = ()=>{
 if (!location.hash) {
     location.hash="#presentation"
 }
+
 loadContent()
 window.addEventListener("hashchange",loadContent)

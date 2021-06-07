@@ -1,8 +1,7 @@
-let formatToId = text => {
+function formatToId(text) {
     return `projects-${text.toLowerCase().replaceAll(' ','-')}`
 }
 
-let id
 projectTypes = document.getElementsByClassName('project-type')
 for (const type of projectTypes) {
     type.addEventListener('click', () => {
