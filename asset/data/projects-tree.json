@@ -1,0 +1,45 @@
+{
+    "adatechschool":[
+        {
+            "title":"?",
+            "shortdesc":"Un projet de jeu en PICO-8 (pas ouf, on va pas se mentir)",
+            "languages":["Lua","PICO-8"],
+            "link":"https://github.com/tob-0/PC-pico8-geb-thom-noh"
+        },
+        {
+            "title":"Ada's Burger",
+            "label":"projects-ada-tech-school",
+            "shortdesc":"Une interface de commande de burger delicieux",
+            "languages":["p5.js"],
+            "link":"projects/adas-burger"
+        }
+    ],
+    "perso":[
+        {
+            "title":"Instagram Caption Bot",
+            "shortdesc":"Un bot qui genere des images et qui les postent sur Instagram.",
+            "languages":["Python"],
+            "link":"https://github.com/tob-0/instagram-caption-bot",
+            "image_link":"https://i.imgur.com/tajC360.jpg",
+            "image_alt":"Logo du compte instagram"
+        },
+        {
+            "title":"VibeCLI",
+            "shortdesc":"Une CLI pour la plateforme Vibe",
+            "languages":["Python"],
+            "link":"https://github.com/tob-0/vibe-cli"
+        },
+        {
+            "title":"Vibe MBTI Scraper",
+            "shortdesc":"Un scraper des profils MBTI sur la plateforme Vibe (Fait avant le CLI, donc c'est pas ouf)",
+            "languages":["Python"],
+            "link":"https://github.com/tob-0/vibe.adatechschool.fr-mbti-scraper"
+        },
+        {
+            "title":"Embroidery Design Table",
+            "shortdesc":"Site Web pour ma table de design de broderie",
+            "languages":["Python","Django"],
+            "link":"https://github.com/tob-0/embroidery-design-table"
+        }
+    ]
+}
