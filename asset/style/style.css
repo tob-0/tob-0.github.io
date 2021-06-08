@@ -72,12 +72,9 @@ a:hover{
 
 a[href^="https://"]::after{
     content: ' [↗]';
-<<<<<<< HEAD
 }
 .special-link{
     border-bottom: 1px dotted white;
-=======
->>>>>>> a8706370a323b244d7a7cbaa531aa03478239936
 }
 #contentLocation{
     margin-top: 10vh;
@@ -140,13 +137,7 @@ summary{
 .card-text{
     text-align: left;
 }
-<<<<<<< HEAD
 .light-mode{
     background-color: white;
     color: black;
-=======
-.card-image img{
-    width:300px;
-    height:300px;
->>>>>>> a8706370a323b244d7a7cbaa531aa03478239936
 }
